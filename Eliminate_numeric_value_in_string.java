@@ -12,7 +12,7 @@ public class Eliminate_numeric_value_in_string {
 
         for(char c:s.toCharArray())
         {
-            if(!(c>=48 && c<=57))
+            if(!(c>='0' && c<='9'))
             {
                 replace +=c;
             }
